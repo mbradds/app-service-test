@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "cd cp-admin && npm install",
-    "build": "cd cp-admin && npm run build",
-    "start": "cd cp-admin && npm run start"
+    "install": "cd app && npm install",
+    "start": "cd app && npm run start"
   },
   "repository": {
     "type": "git",
