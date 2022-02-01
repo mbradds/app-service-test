@@ -1,20 +1,29 @@
 {
-  "name": "app-service-test",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "cp-admin",
+  "version": "0.1.0",
+  "description": "A Strapi application",
   "scripts": {
-    "install": "cd app && npm install",
-    "start": "cd app && npm run start"
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mbradds/app-service-test.git"
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/strapi": "4.0.6",
+    "@strapi/plugin-users-permissions": "4.0.6",
+    "@strapi/plugin-i18n": "4.0.6",
+    "sqlite3": "5.0.2"
   },
-  "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mbradds/app-service-test/issues"
+  "author": {
+    "name": "A Strapi developer"
   },
-  "homepage": "https://github.com/mbradds/app-service-test#readme"
+  "strapi": {
+    "uuid": "c9283c38-0353-4aad-b64c-047ac0da106c"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
 }
